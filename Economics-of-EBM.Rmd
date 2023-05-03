@@ -1,0 +1,233 @@
+---
+title: "Economics of Ecosystem-based Management"
+author: "Geret DePiper, Ph.D."
+institution: "NOAA Northeast Fisheries Science Center"
+date: "`r Sys.Date()`"
+subtitle: "ICES EBM Workshop for DG MARE <br /> May 2023"
+output:
+  xaringan::moon_reader:
+    css: ["default", "libs/EDAB_theme3_508_SOE_16by9_GD.css"]
+    lib_dir: libs
+    nature:
+      titleSlideClass: ["right", "middle", "my-title"]
+      ratio: "16:9"
+      highlightStyle: githubp
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "libs/macros.js"
+  revealjs::revealjs_presentation:
+    self_contained: false
+    reveal_plugins: ["notes", "search"]
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Bottom Line Up Front
+## The earlier you engage economists in Ecosystem-based Management (EBM), the better the possible analyses
+
+.pull-left[ 
+- Biggest impediment to integrating economics is engaging too late
+
+- Key roles:
+  +   Trade-off analyses
+  +   Policy design
+]
+ 
+.pull-right[ 
+![EBFM project lifecycle](images/project_lifecycle.png)
+<font size="2">.image-cap[Reproduced from Kasperski et al. (2021) with permission from NOAA. <br />
+https://www.frontiersin.org/articles/10.3389/fmars.2021.631400/full
+</font>]
+]
+
+???
+---
+# What is Economics?
+
+*American Economic Association, 2023:*
+
+"Economics can be defined in a few different ways. It’s the study of scarcity, the study of how people use resources and respond to incentives, or the study of decision-making."
+
+???
+---
+
+# How does this apply to EBM?
+
+.pull-left[1. Natural resources are scarce
+  + How do we maximize the value derived?
+  
+2. Are stakeholder incentives aligned to achieve societal goals?
+  + Is the market missing anything?
+]
+.pull-right[
+![Fish Farm](images/fishing-man-working-his-boat.jpg)
+<font size="2"> .imnage-cap[Image by dashu83 on Freepik </font> ]
+]
+
+???
+---
+# Why markets in the first place?
+.pull-left[![These plastic microbeads really do help exfoliate your skin...](images/invisible_hand.jpg)
+]
+.pull-right[
+*Under fragile assumptions:*
+* The market allocates goods and services optimally
+* Social welfare is maximized without intervention
+* Cannot make someone better off without making someone worse off
+* Goods and services provided at lowest average cost possible
+
+]
+
+???
+---
+
+# Is the market missing anything?
+
+.pull-left[Are there impacts and choices not captured by the market?
+
++ Non-market goods and externalities
+
++ Creates difference between the social & private costs/benefits
+
++ Market outcome will not maximize social welfare
+]
+
+.pull-right[
+![These plastic microbeads really do help exfoliate your skin...](images/Fish_plastic.jpeg)
+]
+
+???
+---
+# Other example of externalities?
+.pull-left[
+![Hull fouling](images/Hull_fouling.png)
+]
+.pull-right[
+
+*   Fisheries
+
+*   Shipping
+
+*  Other Industries
+]
+
+
+???
+---
+.pull-left[ # How do we measure non-market goods?
+
+* Revealed preferences
+  +   Travel cost
+  +   Averting behavior
+  +   Hedonic Price
+  +   Cost of illness   
+  
+* Stated preferences
+  +   Surveys
+    - Contingent Valuation
+    - Choice Modeling
+  ]
+  .pull-right[
+  <font size="2"> https://www.mafmc.org/actions/summer-flounder-mse</font>
+![Summer Flounder Choice Experiment](images/fishing_choice_survey.png)
+]
+
+
+???
+---
+# Why does it matter?
+
+Knowing what drives behavior helps in crafting policy instruments
+
+![Summer Flounder MSE Bsae Results](images/MSE_output.png){ width = 50% }
+<font size="2"> .imnage-cap[ https://www.mafmc.org/actions/summer-flounder-mse]</font>
+
+???
+---
+Economists' preferred policy instruments are incentive based
+.pull-left[* Telling less effective than making it worthwhile
+  + Individuals & companies have better information on their own activities
+  
+<font size="3"> Pascoe, S. et al. 2010. Use of incentive-based management systems to limit bycatch and discarding. *International Review of Environmental and Resource Economics, 4(2):* 123-161. http://dx.doi.org/10.1561/101.00000032 ]</font>
+.pull-right[![Shrimp bycatch](images/shrimp_bycatch.png)
+<font size="2"> Reproduced with permission from NOAA.</font>
+]
+
+
+???
+---
+# How do we bring information on markets and externalities together?
+
+Total economic value = use value (market & non-market) + non-use value
+
+* Use includes option value & supporting services
+
+* Non-use can only be measured by stated preferences
+
+???
+---
+# How do we maximize the value derived?
+*   Cost-Benefit Analysis
+  +    Gold standard 
+
+*   Cost Effectiveness Analysis
+
+*   Multi-criteria Analysis
+
+*   Other
+
+<font size="3"> OECD (2018), Cost-Benefit Analysis and the Environment: Further Developments and Policy Use, OECD Publishing, Paris, https://doi.org/10.1787/9789264085169-en </font>
+
+???
+---
+# Economic models can inform all types of questions
+.pull-left[ 
+```{r MSP, fig.show = "hold", out.width = "90%", fig.align = "center"}
+knitr::include_graphics("images/White_MSP.png")
+```
+```{r MSP_area, fig.show = "hold", out.width = "60%", fig.align = "center"}
+knitr::include_graphics("images/White_area.png")
+```
+]
+.pull-right[
+```{r Aqua, fig.show = "hold", out.width = "90%", fig.align = "center"}
+knitr::include_graphics("images/Griffin_Aqua.png")
+```
+```{r Aqua_area, fig.show = "hold", out.width = "55%", fig.align = "center"}
+knitr::include_graphics("images/Griffin_area.png")
+```
+]
+
+???
+---
+# Biggest impediment is engaging too late
+<font size="2">Kirkpatrick et al. (2017). Socio-Economic Impact of Outer Continental Shelf Wind Energy Development
+on Fisheries in the U.S. Atlantic, Volume I—Report Narrative (BOEM 2017-012; p. 154).
+NOAA. https://marinecadastre.gov/espis/#/search/study/100058 </font>
+```{r Wind, fig.show = "hold", out.width = "35%", fig.align = "center"}
+knitr::include_graphics("images/Offshore_wind.png")
+```
+???
+---
+# Don't let the perfect be the enemy of the good
+.pull-left[ * Gaps in understanding will exist
+
+* Aim is to make more informed decisions
+
+* Build from simple to complex as needed
+]
+.pull-right[
+```{r Conceptual, fig.show = "hold", out.width = "130%", fig.align = "default"}
+knitr::include_graphics("images/EAFM_progression.png")
+```
+]
+???
+---
+# Ecosystem-based management explicitly considers trade-offs
+
+Economics can help inform not only what to do, but how to do it
+
+
