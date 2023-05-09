@@ -37,7 +37,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ]
  
 .pull-right[ 
-![EBFM project lifecycle](images/project_lifecycle.png)
+![EBFM project lifecycle](images/Project_lifecycle.png)
 <font size="2">.image-cap[Reproduced from Kasperski et al. (2021) with permission from NOAA. <br />
 https://www.frontiersin.org/articles/10.3389/fmars.2021.631400/full
 </font>]
@@ -88,11 +88,12 @@ https://www.frontiersin.org/articles/10.3389/fmars.2021.631400/full
 
 .pull-left[Are there impacts and choices not captured by the market?
 
-+ Non-market goods and externalities
+* Non-market goods and market failures
+  + Externalities
 
-+ Creates difference between the social & private costs/benefits
+* Create difference between the social & private costs/benefits
 
-+ Market outcome will not maximize social welfare
+* Market outcome will not maximize social welfare
 ]
 
 .pull-right[
@@ -142,21 +143,44 @@ https://www.frontiersin.org/articles/10.3389/fmars.2021.631400/full
 
 Knowing what drives behavior helps in crafting policy instruments
 
-![Summer Flounder MSE Bsae Results](images/MSE_output.png){ width = 50% }
+```{r Summer Flounder, fig.show = "hold", out.width = "50%", fig.align = "center"}
+knitr::include_graphics("images/MSE_output.png")
+```
 <font size="2"> .imnage-cap[ https://www.mafmc.org/actions/summer-flounder-mse]</font>
 
 ???
 ---
 Economists' preferred policy instruments are incentive based
 .pull-left[* Telling less effective than making it worthwhile
-  + Individuals & companies have better information on their own activities
-  
-<font size="3"> Pascoe, S. et al. 2010. Use of incentive-based management systems to limit bycatch and discarding. *International Review of Environmental and Resource Economics, 4(2):* 123-161. http://dx.doi.org/10.1561/101.00000032 ]</font>
-.pull-right[![Shrimp bycatch](images/shrimp_bycatch.png)
+  + Individuals & companies have better information on their own activities]
+
+.pull-right[
+![Shrimp bycatch](images/shrimp_bycatch.png)
 <font size="2"> Reproduced with permission from NOAA.</font>
 ]
+???
+---
+<font size="3"> Pascoe, S. et al. 2010. Use of incentive-based management systems to limit bycatch and discarding. International Review of Environmental and Resource Economics, 4(2): 123-161. https://dx.doi.org/10.1561/101.00000032
+</font>
+```{r Incentives, fig.show = "hold", out.width = "90%", fig.align = "center"}
+knitr::include_graphics("images/pascoe_incentives.png")
+```
+???
+---
+What about multi-sector incentives?
 
 
+.pull-left[
+<font size="3"> DePiper, G.S., Lipton, D.W. and Lipcius, R.N., 2017. Valuing ecosystem services: oysters, denitrification, and nutrient trading programs. Marine Resource Economics, 32(1), pp.1-20. https://doi.org/10.1086/688976 </font>
+```{r Oysters, fig.show = "hold", out.width = "100%", fig.align = "center"}
+knitr::include_graphics("images/oysters.jpg")
+```
+]
+.pull-right[
+```{r Nitrogen, fig.show = "hold", out.width = "75%", fig.align = "center"}
+knitr::include_graphics("images/nitrogen.png")
+```
+]
 ???
 ---
 # How do we bring information on markets and externalities together?
@@ -179,13 +203,13 @@ Total economic value = use value (market & non-market) + non-use value
 
 *   Other
 
-<font size="3"> OECD (2018), Cost-Benefit Analysis and the Environment: Further Developments and Policy Use, OECD Publishing, Paris, https://doi.org/10.1787/9789264085169-en </font>
+<font size="3"> OECD. 2018. Cost-Benefit Analysis and the Environment: Further Developments and Policy Use, OECD Publishing, Paris. <a href="https://doi.org/10.1787/9789264085169-en">https://doi.org/10.1787/9789264085169-en</a> </font>
 
 ???
 ---
 # Economic models can inform all types of questions
 .pull-left[ 
-```{r MSP, fig.show = "hold", out.width = "90%", fig.align = "center"}
+```{r MSP, fig.show = "hold", out.width = "90%",fig.link="https://doi.org/10.1073/pnas.1114215109" ,fig.align = "center"}
 knitr::include_graphics("images/White_MSP.png")
 ```
 ```{r MSP_area, fig.show = "hold", out.width = "60%", fig.align = "center"}
@@ -193,11 +217,11 @@ knitr::include_graphics("images/White_area.png")
 ```
 ]
 .pull-right[
-```{r Aqua, fig.show = "hold", out.width = "90%", fig.align = "center"}
+```{r Aqua, fig.show = "hold", out.width = "90%", fig.link="https://doi.org/10.1016/j.aquaculture.2014.10.035",fig.align = "center"}
 knitr::include_graphics("images/Griffin_Aqua.png")
 ```
 ```{r Aqua_area, fig.show = "hold", out.width = "55%", fig.align = "center"}
-knitr::include_graphics("images/Griffin_area.png")
+knitr::include_graphics("images/Griffin_Area.png")
 ```
 ]
 
@@ -226,8 +250,10 @@ knitr::include_graphics("images/EAFM_progression.png")
 ]
 ???
 ---
-# Ecosystem-based management explicitly considers trade-offs
+# Ecosystem-based management considers trade-offs
 
 Economics can help inform not only what to do, but how to do it
-
-
+* Benefits & Costs
+  + Non-Market Goods
+  + Externalities
+* Incentives
